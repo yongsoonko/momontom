@@ -20,7 +20,7 @@ function handleGeoSuccess(position) {
   getWeather(coords.latitude, coords.longitude);
 }
 
-function handleGeoFailure() { alert('Not Allowed')}
+function handleGeoFailure() {}
 
 function askForCoords() {
   navigator.geolocation.getCurrentPosition(
