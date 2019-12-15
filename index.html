@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Momonton</title>
+    <meta charset="UTF-8" />
+    <meta name="author" content="YongsoonKo"/>
+    <link rel="stylesheet" href="src/styles.css"/>
+  </head>
+  <body>
+    <div class="center">
+      <div class="nameSector">
+        <form class="js-nameForm">
+          <input type="text" placeholder="What is your name?" autofocus/>
+        </form>
+        <h1 class="js-greeting greeting">Hello! <span class="js-name"></span></h1>
+      </div>
+      <div class="calendar">
+        <span class="js-calDate"></span>
+        <span class="js-calYear"></span>
+      </div><img class="js-weatherIcon weatherIcon"><span class="js-weather weather"></span></span>
+      <span class="js-weather"></span>
+      <h1 class="js-time time"></h1>
+      <form class="js-toDoForm toDoForm">
+        <input type="text" placeholder="What are you doing?"/>
+      </form>
+      <ul class="js-toDoList toDoList"></ul>
+    </div>
+    <script src="src/greeting.js"></script>
+    <script src="src/timer.js"></script>
+    <script src="src/todo.js"></script>
+    <script src="src/bg.js"></script>
+    <script src="src/weather.js"></script>
+  </body>
+</html>
